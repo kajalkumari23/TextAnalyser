@@ -50,7 +50,7 @@ export default function TextForm(props) {
         let msg = new SpeechSynthesisUtterance();
         msg.text = text;
         window.speechSynthesis.speak(msg);
-      }
+      } 
     
     const handleReverse = (event) => {
         /* Convert string to array*/

@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 
-export default function Navbar(props) {
+export default function Navbar(props) { 
     return (
         // here we will use back tick to use template literals
         <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
