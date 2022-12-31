@@ -10,6 +10,7 @@ import React, { useState } from 'react';
  
 function App() { 
   const [mode, setMode] = useState('light'); //whether dark mode is enabled or not
+  // for alert
   //const [alert, setAlert] = useState(null)
 
   // const showAlert = (message, type) =>{
@@ -19,7 +20,7 @@ function App() {
   //   })
   // }
 
-  const toggleMode = ()=>{
+  const toggleMode = ()=>{ 
     if(mode ==='light'){
       setMode ('dark');
       document.body.style.backgroundColor = 'gray';
