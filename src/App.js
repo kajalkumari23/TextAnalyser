@@ -1,4 +1,4 @@
-
+//we will use
 // export default App;
 // import { useState } from 'react';
 import './App.css'; 
@@ -6,6 +6,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React, { useState } from 'react'; 
+
 // import Alert from './components/Alert';
  
 function App() { 
